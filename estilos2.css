@@ -291,20 +291,21 @@ figure{
 /* TABLA SERVICIOS  */
 table{
     margin: 0 auto;
-    padding: 25px;
+    padding: 25px ;
     border: 15px solid #afa27b;
     background: #282828;
     background: url(https://barbershop23i.netlify.app/img/table_bg.png);
     background-position: center;
     background-size: center;
-    display: table;
+    
     border-collapse: separate;
     box-sizing: border-box;
     text-indent: initial;
     unicode-bidi: isolate;
     border-spacing: 2px;
     border-color: #afa27b;
-    width: 60%  ;
+    width: 40%  ;
+    display: flex;
 }
 tbody{
     display: table-row-group;
