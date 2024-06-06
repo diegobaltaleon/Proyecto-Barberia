@@ -1,0 +1,451 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0 ;
+    list-style: none;
+}
+
+/* Barra de Navegacion  */
+header{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.nav{
+    background-color: rgba(90, 90,90,0.5);
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    unicode-bidi: isolate;
+}
+.nav a{
+    font-size: 20px ;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffff ;
+    font-family: 'Lato' ;
+    padding: 15px;
+    margin: 15px 20px;
+    transition: background 0.5s ease ;
+}
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    unicode-bidi: isolate;
+}
+#logo{
+    text-align: center;
+    width: 10%;
+}
+
+.logo-nav{
+    height: auto;
+    border-radius: 35%;
+    width: 100%;
+}
+
+
+/* Seccion Main  */
+
+main{
+    display: block;
+    unicode-bidi: isolate;
+    font-family: 'lato';
+}
+section{
+    unicode-bidi: isolate;
+    display: block;
+}
+
+/* PORTADA  */
+#portada{
+    background: url(https://previews.123rf.com/images/mickloggi/mickloggi2304/mickloggi230402239/202708010-interior-de-la-peluquer%C3%ADa-moderna-interior-de-barber%C3%ADa.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+#titulo{
+    border-bottom: 1px solid #fff;
+    width: 95%;
+    text-align: center;
+    margin: 10px 0;
+    padding: 25px 0px ;
+    font-size: 40px;
+}
+.titulo-portada{
+    display: block;
+    unicode-bidi: isolate;
+}
+.titulo-portada h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    
+}
+
+#portada h2{
+    margin: 40px 0;
+    padding: 0px;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.boton-portada{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out; 
+}
+.boton-portada:hover{
+    background-color: rgb(83, 80, 80);
+    color: white;
+    font-weight: bold;
+}
+
+/* DESCRIPCION  */
+
+    /* ARTICLE  */
+.about {
+    justify-content: space-around;
+    font-family: 'lato', sans-serif;
+}
+.contenedor{
+    margin: 0 30px;
+    padding: 25px;
+    width: 50%;
+    font-family: 'lato', 'sans-serif';
+}
+.contenedor h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 15px 0;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.contenedor h3 {
+    font-size: 30px;
+    margin: 15px 0;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.contenedor p{
+    line-height: 1.6;
+    text-align: justify;
+    margin: 25px 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.contenedor p::first-letter{
+    font-weight: 700;
+    font-size: 22px;
+    background: rgba(90, 90,90,0.5);
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-weight: bold;
+}
+.contenedor a{
+    font-size: 20px;
+    text-decoration: none;
+    background: #afa27b;
+    color: #fff;
+    padding: 15px 10px;
+    margin: 25px 0;
+    border-radius: 5%;
+    font-family: 'lato', 'sans-serif';
+}
+.contenedor a:hover{
+    background-color: rgb(83, 80, 80);
+    color: white;
+    font-weight: bold;
+}
+article{
+    display: block;
+    unicode-bidi: isolate;
+}
+.contenedor hr{
+    margin: 15px 0;
+    max-width: 20%;
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    unicode-bidi: isolate;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+    /* FIGURE  */
+
+.about > figure{
+    width: 50%;
+    position: relative;
+}
+figure{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    unicode-bidi: isolate;
+}
+.figura-descripcion img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    max-width: 800px;
+    max-height: 600px;
+}
+.sillaBackground{
+    width: 30vw;
+    height: 50vh;
+    background: #afa27b;
+    position: absolute;
+    top: 0;
+    right: 150px;
+    z-index: -1;
+}
+
+/* SERVICIOS  */
+
+.servicesContainer{
+    width: 100%;
+    height: 300px;
+    background: #282828;
+    margin-bottom: 30%;
+}
+#top{
+    width: 50px;
+    height: 50px;
+    background: rgba(90, 90, 90, 0.5);
+    border-radius: 10%;
+    padding: 10px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+}
+.services{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    padding: 40px 0;
+    position: relative;
+    font-family: 'lato','sans-serif';
+}
+.services h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+/* TABLA SERVICIOS  */
+table{
+    margin: 0 auto;
+    padding: 25px;
+    border: 15px solid #afa27b;
+    background: #282828;
+    background: url(https://barbershop23i.netlify.app/img/table_bg.png);
+    background-position: center;
+    background-size: center;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: #afa27b;
+    width: 60%  ;
+}
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+    
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+tr:nth-child(odd){
+    color: #fff;
+}
+td{
+    font-size: 30px;
+    border-bottom: 1px dashed #afa27b;
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    
+}
+td:first-child{
+    padding: 15px 200px 15px 0px;
+}
+tr:nth-child(even){
+    color: #afa27b;
+}
+/* FOTOS  */
+
+
+/* FOOTER  */
+
+footer{
+    display: block;
+    unicode-bidi: isolate;
+    background: #121212;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'lato', sans-serif;
+}
+footer section{
+    background: #121212;
+    color: white;
+    padding: 30px 0 ;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+section{
+    display: block;
+    unicode-bidi: isolate;
+}
+#logo{
+    text-align: center;
+    width: 10%;
+}
+#logo img{
+    width: 100%;
+    height: auto;
+}
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    border-radius: 40%;
+}
+figure{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+}
+.footer-links a{
+    padding: 10px 0;
+    color: #afa27b;
+    font-family: 'lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+a:-webkit-any-link{
+    color: webkit-link;
+    cursor: pointer;
+}
+.h3-footer{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    padding: 0 0 0 150px;
+}
+.barberia-footer{
+    color: #afa27b;
+    font-size: 20px;
+    padding: 60px;
+    font-weight: bold;
+}
+.p-footer{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    padding: 0 0 0 150px;
+}
+.iconos-redes-sociales a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+   
+  }
+  .iconos-redes-sociales i{
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+    
+  }
+  .iconos-redes-sociales a:hover{
+    background-color: rgb(126, 126, 126);
+    border: 2px solid rgb(83, 85, 88);
+  }
+  .iconos-redes-sociales a:hover i{
+    color: black;
+  }
